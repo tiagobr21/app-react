@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#btns{
+  margin-top: -100px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+}
+
+#btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  background-color: #61dafb; /* Cor azul típica do React */
+  color: #fff;
+  border: 2px solid #61dafb;
+}
+
+#btn:hover {
+  background-color: #fff;
+  color: #61dafb;
+}
